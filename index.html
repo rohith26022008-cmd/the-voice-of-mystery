@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#050708">
+<meta name="description" content="The Voice of Mystery — an upcoming short film by Rohith R.">
+<meta name="keywords" content="The Voice of Mystery, The Voice of Mystery short film, Rohith R, Rohith R director, Tamil short film, horror short film, mystery short film, thriller short film, independent filmmaker, short film director, filmmaking, storytelling, original short film, friendship short film, upcoming short film">
+<title>The Voice of Mystery | Official Short Film</title>
+<style>
+/* Cinematic Page Loader */
+#page-loader {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    background: #050708;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: opacity .7s ease, visibility .7s ease;
+}
+
+#page-loader.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.loader-content {
+    width: 90%;
+    max-width: 650px;
+    animation: loader-appear 1s ease both;
+}
+
+.loader-line {
+    width: 70px;
+    height: 2px;
+    background: #e31a27;
+    margin: 0 auto 25px;
+    box-shadow: 0 0 18px #e31a27;
+    animation: loader-line 1.5s ease-in-out infinite alternate;
+}
+
+.loader-label {
+    color: #a0a7aa;
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
+.loader-content h1 {
+    color: #f3f0ee;
+    font-family: Cinzel, Georgia, serif;
+    font-size: clamp(27px, 6vw, 55px);
+    line-height: 1.25;
+    margin: 22px 0;
+}
+
+.loader-content h1 span {
+    display: block;
+    color: #e31a27;
+    text-shadow: 0 0 25px #e31a2755;
+}
+
+.loader-spinner {
+    width: 32px;
+    height: 32px;
+    margin: 30px auto 18px;
+    border: 2px solid #30383d;
+    border-top-color: #e31a27;
+    border-radius: 50%;
+    animation: loader-spin .8s linear infinite;
+}
+
+.loader-status {
+    color: #a0a7aa;
+    font-size: 9px;
+    letter-spacing: 3px;
+}
+
+@keyframes loader-spin {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes loader-line {
+    from { transform: scaleX(.5); opacity: .5; }
+    to { transform: scaleX(1.5); opacity: 1; }
+}
+
+@keyframes loader-appear {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loader-spinner,
+    .loader-line,
+    .loader-content {
+        animation: none;
+    }
+}
+/* Director Section */
+.director-section {
+    background: #050708;
+    border-bottom: 1px solid #273038;
+    padding: 65px 0;
+}
+
+.director-container {
+    width: min(1180px, calc(100% - 44px));
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 55px;
+}
+
+.director-image {
+    overflow: hidden;
+    border: 1px solid #30383d;
+    min-height: 300px;
+}
+
+.director-image img {
+    display: block;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.director-content {
+    padding: 15px 0;
+}
+
+.director-label {
+    color: #e31a27;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.director-content h2 {
+    font-family: Cinzel, Georgia, serif;
+    font-size: clamp(36px, 5vw, 60px);
+    margin: 15px 0 5px;
+    line-height: 1.2;
+}
+
+.director-content h2 span {
+    color: #e31a27;
+}
+
+.director-role {
+    color: #a0a7aa;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.director-description {
+    color: #b4bdc4;
+    font-size: 14px;
+    line-height: 1.9;
+    margin: 24px 0;
+    max-width: 440px;
+}
+
+.director-button {
+    display: inline-block;
+    padding: 13px 24px;
+    border: 1px solid #e31a27;
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 2px;
+    transition: .25s;
+}
+
+.director-button:hover {
+    background: #e31a27;
+}
+
+@media (max-width: 850px) {
+    .director-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .director-image img {
+        height: 280px;
+    }
+
+    .director-section {
+        padding: 45px 0;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
+:root {--bg:#050708;
+	--panel:#0b1013;--red:#e31a27;
+	--text:#f3f0ee;--muted:#a0a7aa;
+	--line:#273038
+	}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}button{font:inherit}header{position:sticky;top:0;z-index:20;background:#030506ed;border-bottom:1px solid #252a2d;backdrop-filter:blur(10px)}.nav{max-width:1240px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-family:Cinzel,Georgia,serif;font-size:15px;white-space:nowrap}.brand b,.accent{color:var(--red)}.brand small{display:block;text-align:center;letter-spacing:4px;font-size:7px;color:var(--muted)}.links{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.links a{font-size:11px;text-transform:uppercase;letter-spacing:1px}.links a:hover,.links a:focus-visible{color:var(--red)}.menu{display:none;border:1px solid var(--line);background:#111;color:white;border-radius:4px;padding:6px 10px}.hero{min-height:540px;display:flex;align-items:center;background:linear-gradient(90deg,#030506 0%,#030506e8 28%,#03050665 75%,#030506b8),url('assets/hero.jpg') center/cover,radial-gradient(ellipse at 70% 30%,#203541,#06090c 70%);border-bottom:1px solid var(--line)}.wrap{width:min(1180px,calc(100% - 44px));margin:auto}.hero-inner{padding:90px 0}.eyebrow{letter-spacing:6px;text-transform:uppercase;font-size:12px}.hero h1{font-family:Cinzel,Georgia,serif;font-size:clamp(42px,7vw,88px);line-height:1.02;max-width:760px;margin:18px 0}.hero h1 span{display:block;color:var(--red);text-shadow:2px 3px 0 #4b080c;letter-spacing:3px}.tagline{font-size:12px;letter-spacing:5px;color:#ddd;text-transform:uppercase}.buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid var(--red);color:#fff;background:#130607;padding:12px 22px;font-size:11px;text-transform:uppercase;letter-spacing:1px;border-radius:5px;cursor:pointer;transition:.2s}.btn:hover{background:var(--red)}.btn.secondary{background:transparent;border-color:#53616b}.btn.secondary:hover{border-color:var(--red);background:#1b090b}.section{padding:70px 0;border-bottom:1px solid #1c2429}.section-label{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--red);font-weight:700}.section-label:before{content:'—';margin-right:10px}.section h2{font-family:Cinzel,Georgia,serif;font-weight:600;letter-spacing:1px;font-size:clamp(25px,3vw,37px);margin:8px 0 24px}.muted{color:var(--muted)}.split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.art{aspect-ratio:16/10;background:linear-gradient(130deg,#0a0d0e,#1d2b30,#08090a);border:1px solid #30383d;overflow:hidden}.art img{width:100%;height:100%;object-fit:cover}.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:26px 0}.fact{border-left:1px solid #384048;padding-left:12px;font-size:12px}.fact b{display:block;color:#fff}.fact span{color:var(--muted)}.video{aspect-ratio:16/9;background:linear-gradient(135deg,#0e1920,#020405);border:1px solid #334047;display:grid;place-items:center;overflow:hidden}.video iframe{width:100%;height:100%;border:0}.play{font-size:45px;color:#fff;border:2px solid white;border-radius:50%;width:85px;height:85px;display:grid;place-items:center}.cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}.card{border:1px solid #263640;background:#0b1013;text-align:center;overflow:hidden}.portrait{height:215px;background:linear-gradient(145deg,#151c21,#030405);display:grid;place-items:center;color:#6f7b81;font-family:Cinzel,serif;letter-spacing:2px;font-size:13px}.portrait img{height:100%;width:100%;object-fit:cover}.card-body{padding:14px 8px}.card h3{font-family:Cinzel,serif;font-size:14px;margin:0 0 3px}.card p{font-size:12px;color:var(--red);margin:0}.crew .card{padding:25px 10px}.crew-icon{font-size:32px;color:#ddd}.crew .card h3{font-size:13px;margin:15px 0 4px}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.gallery .art{aspect-ratio:4/3}.watch{text-align:center;padding:65px 20px;background:linear-gradient(#030506d9,#030506ec),url('assets/watch-background.jpg') center/cover,#101820}.watch h2{font-family:Cinzel,serif}.watch .buttons{justify-content:center}.footer{padding:30px 0;display:flex;justify-content:space-between;gap:15px;align-items:center;font-size:12px;color:var(--muted)}.footer strong{color:#fff;font-family:Cinzel,serif}#status{font-size:12px;color:#bbb}a:focus-visible,button:focus-visible{outline:2px solid white;outline-offset:4px}@media(max-width:850px){.menu{display:block}.links{display:none;position:absolute;top:100%;left:0;right:0;background:#060809;padding:20px;flex-direction:column;align-items:flex-start;border-bottom:1px solid #333}.links.open{display:flex}.split{grid-template-columns:1fr}.cards{grid-template-columns:repeat(3,1fr)}.facts{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}}@media(max-width:540px){.hero{min-height:470px}.hero-inner{padding:65px 0}.hero h1{font-size:clamp(39px,11vw,60px)}.tagline{letter-spacing:2px}.section{padding:48px 0}.cards{grid-template-columns:repeat(2,1fr)}.portrait{height:165px}.gallery{grid-template-columns:repeat(2,1fr)}.footer{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+<!-- Cinematic Loading Screen -->
+<div id="page-loader">
+    <div class="loader-content">
+        <div class="loader-line"></div>
+
+        <p class="loader-label">AN ORIGINAL SHORT FILM</p>
+
+        <h1>THE VOICE OF <span>MYSTERY</span></h1>
+
+        <div class="loader-spinner"></div>
+
+        <p class="loader-status">ENTERING THE UNKNOWN...</p>
+    </div>
+</div>
+<header><nav class="nav" aria-label="Main navigation"><a class="brand" href="#home">THE <b>VOICE</b> OF MYSTERY<small>SHORT FILM</small></a><button class="menu" id="menu" aria-expanded="false" aria-controls="links">☰ Menu</button><div class="links" id="links"><a href="#home">Home</a><a href="#about">About</a><a href="#cast">Cast</a><a href="#crew">Crew</a><a href="#trailer">Trailer</a><a href="#watch">Watch</a><a href="#gallery">Gallery</a></div></nav></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-inner"><div class="eyebrow">A short film by Rohith R</div><h1>THE VOICE OF <span>MYSTERY</span></h1><p class="tagline">Five voices... one truth...</p><div class="buttons"><a class="btn" href="#trailer">▶ Watch Trailer</a><a class="btn secondary" href="#watch">▣ Watch Full Film</a></div></div></section>
+<section class="section" id="about"><div class="wrap split"><div><div class="section-label">About the film</div><h2>THE VOICE OF MYSTERY</h2><p class="muted">Five friends encounter a mysterious voice recorder. What begins as curiosity leads them toward unsettling questions, unexpected discoveries, and a mystery that tests their friendship.</p><p class="muted">An upcoming short film exploring horror, mystery, thriller, friendship and moments of comedy.</p><div class="facts"><div class="fact"><b>Genre</b><span>Horror / Mystery / Thriller</span></div><div class="fact"><b>Duration</b><span>To be announced</span></div><div class="fact"><b>Language</b><span>To be announced</span></div><div class="fact"><b>Status</b><span>In progress</span></div></div></div><div class="art"><img src="assets/recorder.jpg" alt="Film voice recorder artwork" onerror="this.style.display='none'"></div></div></section>
+<section class="section" id="trailer"><div class="wrap split"><div class="video" id="trailer-box"><span class="play" aria-label="Trailer coming soon">▶</span></div><div><div class="section-label">Official trailer</div><h2>WATCH THE TRAILER</h2><p class="muted">The official trailer will appear here when released. You can watch it on this website or open it on YouTube.</p><a class="btn" id="trailer-link" href="#trailer">▶ Trailer Coming Soon</a><p id="status">Trailer link not added yet.</p></div></div></section>
+<section class="section" id="cast"><div class="wrap"><div class="section-label">The cast</div><h2>MEET THE CHARACTERS</h2><div class="cards" id="cast-cards"></div></div></section>
+<section class="section" id="crew"><div class="wrap"><div class="section-label">The crew & team</div><h2>BEHIND THE SCENES</h2><div class="cards crew" id="crew-cards"></div></div></section>
+<section class="section" id="gallery"><div class="wrap"><div class="section-label">Gallery</div><h2>BEHIND THE LENS</h2><p class="muted">Production stills, posters, and behind-the-scenes photographs will be added here.</p><div class="gallery"><div class="art"><img src="assets/gallery-1.jpg" alt="Film gallery image 1" onerror="this.style.display='none'"></div><div class="art"><img src="assets/gallery-2.jpg" alt="Film gallery image 2" onerror="this.style.display='none'"></div><div class="art"><img src="assets/gallery-3.jpg" alt="Film gallery image 3" onerror="this.style.display='none'"></div><div class="art"><img src="assets/gallery-4.jpg" alt="Film gallery image 4" onerror="this.style.display='none'"></div></div></div></section>
+<section class="watch" id="watch"><div class="wrap"><div class="section-label">Official release</div><h2>WATCH THE FULL FILM ON YOUTUBE</h2><p class="muted">Once released, the complete short film will be available on YouTube.</p><div class="buttons"><a class="btn" id="film-link" href="#watch">▶ Coming Soon</a></div></div></section>
+
+<!-- Director Section -->
+<section class="director-section" id="director">
+    <div class="director-container">
+
+        <div class="director-image">
+            <img src="assets/director-scene.jpg"
+                 alt="The director's film set">
+        </div>
+
+        <div class="director-content">
+            <span class="director-label">THE MIND BEHIND THE MYSTERY</span>
+
+            <h2>ROHITH <span>R</span></h2>
+
+            <p class="director-role">
+                DIRECTOR · WRITER · STORYTELLER
+            </p>
+
+            <p class="director-description">
+                Discover the creative mind behind
+                <em>The Voice of Mystery</em>, and explore
+                his story, vision, and passion for filmmaking.
+            </p>
+
+            <a href="https://rohith26022008-cmd.github.io/my-website/"
+               class="director-button">
+                MEET THE DIRECTOR ↗
+            </a>
+        </div>
+
+    </div>
+</section></main>
+<footer class="wrap footer"><strong>THE <span class="accent">VOICE</span> OF MYSTERY</strong><span>Five voices... one truth...</span><span>Created by Rohith R</span></footer>
+<script>
+// Cinematic Loading Screen
+(function () {
+    const loader = document.getElementById('page-loader');
+
+    if (!loader) return;
+
+    const minimumTime = 1000; // 1 second
+    const startTime = Date.now();
+
+    function hideLoader() {
+        const elapsed = Date.now() - startTime;
+        const remaining = Math.max(0, minimumTime - elapsed);
+
+        setTimeout(function () {
+            loader.classList.add('loader-hidden');
+        }, remaining);
+    }
+
+    if (document.readyState === 'complete') {
+        hideLoader();
+    } else {
+        window.addEventListener('load', hideLoader, { once: true });
+    }
+})();
+// Edit these links when your trailer and full film are published.
+const TRAILER_YOUTUBE_URL = '';
+const FULL_FILM_YOUTUBE_URL = '';
+// Replace placeholders with confirmed actor and character credits.
+const cast = [
+ {actor:'Rohith',character:'Character to be confirmed',image:'assets/cast-rohith.jpg'},
+ {actor:'Guna',character:'Character to be confirmed',image:'assets/cast-guna.jpg'},
+ {actor:'Kishore',character:'Character to be confirmed',image:'assets/cast-kishore.jpg'},
+ {actor:'Yuvraj',character:'Character to be confirmed',image:'assets/cast-yuvraj.jpg'},
+ {actor:'Varun',character:'Character to be confirmed',image:'assets/cast-varun.jpg'}
+];
+const crew = [
+ {role:'Direction & Writing',name:'Rohith R',icon:'🎬'},
+ {role:'Cinematography',name:'To be announced',icon:'📷'},
+ {role:'Editing',name:'To be announced',icon:'✂'},
+ {role:'Music & Sound',name:'To be announced',icon:'♫'},
+ {role:'Production',name:'To be announced',icon:'🎞'}
+];
+function escapeHTML(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+document.getElementById('cast-cards').innerHTML=cast.map(p=>`<article class="card"><div class="portrait"><img src="${escapeHTML(p.image)}" alt="${escapeHTML(p.actor)}" onerror="this.style.display='none';this.parentElement.append(document.createTextNode('PHOTO COMING SOON'))"></div><div class="card-body"><h3>${escapeHTML(p.actor)}</h3><p>${escapeHTML(p.character)}</p></div></article>`).join('');
+document.getElementById('crew-cards').innerHTML=crew.map(p=>`<article class="card"><div class="crew-icon" aria-hidden="true">${escapeHTML(p.icon)}</div><h3>${escapeHTML(p.role)}</h3><p>${escapeHTML(p.name)}</p></article>`).join('');
+const menu=document.getElementById('menu'),links=document.getElementById('links');menu.addEventListener('click',()=>{const open=links.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));});links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.setAttribute('aria-expanded','false');}));
+function youtubeId(url){try{const u=new URL(url);if(u.hostname==='youtu.be'||u.hostname==='www.youtu.be')return u.pathname.slice(1).split('/')[0];if(['youtube.com','www.youtube.com','m.youtube.com'].includes(u.hostname)){if(u.pathname==='/watch')return u.searchParams.get('v');if(u.pathname.startsWith('/shorts/')||u.pathname.startsWith('/embed/'))return u.pathname.split('/')[2];}}catch(e){}return null;}
+const trailerId=youtubeId(TRAILER_YOUTUBE_URL);if(trailerId&&/^[a-zA-Z0-9_-]{11}$/.test(trailerId)){const box=document.getElementById('trailer-box');const iframe=document.createElement('iframe');iframe.src='https://www.youtube-nocookie.com/embed/'+trailerId;iframe.title='The Voice of Mystery official trailer';iframe.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';iframe.allowFullscreen=true;iframe.loading='lazy';box.replaceChildren(iframe);const a=document.getElementById('trailer-link');a.href=TRAILER_YOUTUBE_URL;a.target='_blank';a.rel='noopener noreferrer';a.textContent='▶ Watch on YouTube';document.getElementById('status').textContent='Official trailer available.';}
+if(youtubeId(FULL_FILM_YOUTUBE_URL)){const a=document.getElementById('film-link');a.href=FULL_FILM_YOUTUBE_URL;a.target='_blank';a.rel='noopener noreferrer';a.textContent='▶ Watch Full Film';}
+</script>
+</body>
+</html>
